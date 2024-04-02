@@ -32,7 +32,7 @@ fileAppend = open("diskSpaceNotify.txt", "wb")
 fileAppend.write(dfout);
 
 
-subprocess.call(["cat", "diskSpaceNotify.txt", " | mailx", "sus.oc.onshift.unix@accenture.com"])
+subprocess.call(["cat", "diskSpaceNotify.txt", " | mailx", "email@email.com"])
 
 
 fileAppend.close()
